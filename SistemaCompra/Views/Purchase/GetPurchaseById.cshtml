@@ -1,0 +1,83 @@
+﻿@model IEnumerable<SistemaCompra.Models.Purchase.PurchaseModel>
+
+@{
+	ViewBag.Title = "Gestión de compras";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div style="margin-top:3rem;">
+
+	<h2>Gestión de compras</h2>
+
+	<p>
+		@Html.ActionLink("Nueva orden de compra", "CreatePurchase")
+	</p>
+	<table class="table table-hover">
+		<tr>
+			<th scope="auto">
+				# Orden
+			</th>
+			<th>
+				# Articulo
+			</th>
+			<th>
+				Nombre
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Precio)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Cantidad)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Prioridad)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Comentario)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Estado)
+			</th>
+			<th></th>
+		</tr>
+
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.NumOrden)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.NumArticulo)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.NomArticulo)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Precio)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Cantidad)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Prioridad)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Comentario)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Estado)
+				</td>
+				<td>
+					@Html.ActionLink("Editar", "Edit", new { id = item.idrequisicion })
+
+				</td>
+			</tr>
+		}
+
+	</table>
+
+	<div style="margin-top:1rem;">
+		@Html.ActionLink("Regresar", "Index", "Home", new { @class = "btn btn-primary" })
+	</div>
+</div>

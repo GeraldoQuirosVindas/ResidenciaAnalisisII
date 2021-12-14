@@ -1,0 +1,88 @@
+﻿@{
+	ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+	<h1>Sistema de compras - QB</h1>
+	<p class="lead">Bevenido al sistemas de compras QB, registra tus compras y dale seguimiento con envio de notificaciones y aprobaciones basados en usuarios.</p>
+</div>
+
+<div class="row">
+
+	@if (Session["Role"] == null)
+	{
+		<div class="col-md-4">
+			<div class="box red">
+				<h2>Historial</h2>
+				<p>Puedes dar seguimiento a tus compras.</p>
+				<img class="img-card" src="~/Content/image/refresh.png" alt="">
+			</div>
+
+		</div>
+		<div class="col-md-4">
+			<div class="box orange">
+				<h2>Notificaciones</h2>
+				<p>Envio de notificaciones al realizar las compras.</p>
+				<img class="img-card" src="~/Content/image/email.png" alt="">
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="box blue">
+				<h2>Usuarios</h2>
+				<p>Administración de usuarios</p>
+				<img class="img-card" src="~/Content/image/user.png" alt="">
+			</div>
+
+		</div>
+	}
+	else if (Session["Role"].Equals("Aprobador Jefe"))
+	{
+		<div class="col-md-4">
+			<div class="box red">
+				<h2>Ver mis compras</h2>
+				<img class="img-card" src="https://cdn-icons.flaticon.com/png/512/2530/premium/2530313.png?token=exp=1638565951~hmac=d8294b0ab056882ca4a30d03ee094ef6" alt="">
+			</div>
+
+		</div>
+		<div class="col-md-4">
+			<div class="box orange">
+				<h2>Mi Perfil</h2>
+				<img src="https://cdn-icons.flaticon.com/png/512/5393/premium/5393248.png?token=exp=1638566236~hmac=1146e21e778bd4fe1f7138be70dfbda6" alt="">
+			</div>
+		</div>
+	}
+	else
+	{
+		<div class="col-md-6">
+			<div class="box red">
+
+				<div style="display: flex; justify-content: flex-start; align-items: flex-start">
+
+					<h2 style="margin-right: 8rem;" >Ver mis compras</h2>
+					<img  class="img-card" src="~/Content/image/online-shopping.png" alt="">
+				</div>
+
+
+				<div style="margin-top:3rem;">
+					@Html.ActionLink("Ver", "GetPurchaseById", "Purchase", null, new { @style = "width:100%", @class = "btn btn-primary" })
+				</div>
+			</div>
+
+		</div>
+		<div class="col-md-6">
+			<div class="box orange">
+
+				<div style="display: flex; justify-content: flex-start; align-items: flex-start">
+
+					<h2 style="margin-right: 8rem;" >Mi Perfil</h2>
+					<img  class="img-card" src="~/Content/image/user.png" alt="">
+				</div>
+
+				<div style="margin-top:3rem;">
+					@Html.ActionLink("Ver", "GetPurchaseById", "Purchase", null, new { @style = "width:100%", @class = "btn btn-primary" })
+				</div>
+			</div>
+		</div>
+	}
+
+</div>

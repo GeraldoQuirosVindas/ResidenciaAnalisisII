@@ -1,0 +1,58 @@
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\SistemaCompra.dll.config
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\SistemaCompra.dll
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\SistemaCompra.pdb
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\Antlr3.Runtime.dll
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\BCrypt.Net-Core.dll
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\Microsoft.Web.Infrastructure.dll
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\Newtonsoft.Json.dll
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\System.Web.Helpers.dll
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\System.Web.Mvc.dll
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\System.Web.Optimization.dll
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\System.Web.Razor.dll
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\System.Web.WebPages.Deployment.dll
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\System.Web.WebPages.dll
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\System.Web.WebPages.Razor.dll
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\WebGrease.dll
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\BCrypt.Net-Core.pdb
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\System.Web.Helpers.xml
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\System.Web.Mvc.xml
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\System.Web.Optimization.xml
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\System.Web.Razor.xml
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\System.Web.WebPages.xml
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\System.Web.WebPages.Deployment.xml
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\System.Web.WebPages.Razor.xml
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\Newtonsoft.Json.xml
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\bin\Antlr3.Runtime.pdb
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\obj\Debug\SistemaCompra.csproj.CoreCompileInputs.cache
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\obj\Debug\SistemaCompra.dll
+G:\UACA Ing Sistemas\Cuatrimestres UACA\Cursos 2021\Tercer Cuatrimestre 2021\Analisis y Diseño de Sistemas 2\Proyecto Resi\ProyectoFinalAnalisis\SistemaCompra\obj\Debug\SistemaCompra.pdb
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\SistemaCompra.dll.config
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\SistemaCompra.dll
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\SistemaCompra.pdb
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\Antlr3.Runtime.dll
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\BCrypt.Net-Core.dll
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\Mailjet.Client.dll
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\Microsoft.Web.Infrastructure.dll
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\Newtonsoft.Json.dll
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\System.Web.Helpers.dll
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\System.Web.Mvc.dll
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\System.Web.Optimization.dll
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\System.Web.Razor.dll
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\System.Web.WebPages.Deployment.dll
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\System.Web.WebPages.dll
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\System.Web.WebPages.Razor.dll
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\WebGrease.dll
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\BCrypt.Net-Core.pdb
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\Newtonsoft.Json.xml
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\System.Web.Helpers.xml
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\System.Web.Mvc.xml
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\System.Web.Optimization.xml
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\System.Web.Razor.xml
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\System.Web.WebPages.xml
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\System.Web.WebPages.Deployment.xml
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\System.Web.WebPages.Razor.xml
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\bin\Antlr3.Runtime.pdb
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\obj\Debug\SistemaCompra.csproj.CoreCompileInputs.cache
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\obj\Debug\SistemaCompra.dll
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\obj\Debug\SistemaCompra.pdb
+D:\Desktop\ProyectoFinalAnalisis - Copy\SistemaCompra\obj\Debug\SistemaCompra.csproj.AssemblyReference.cache

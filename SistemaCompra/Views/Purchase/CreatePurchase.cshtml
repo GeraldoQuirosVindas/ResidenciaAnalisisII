@@ -1,0 +1,117 @@
+﻿@model SistemaCompra.Models.Purchase.PurchaseModel
+
+@{
+    ViewBag.Title = "Crear nueva compra";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Crear nueva compra</h2>
+
+@using (Html.BeginForm())
+{
+@Html.AntiForgeryToken()
+
+
+
+
+	<div class="card">
+		<div class="card-header">
+			Numero Orden : @ViewBag.NumOrden
+
+		</div>
+		<div class="card-body">
+
+			<div class="form-horizontal">
+			
+				@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+				<div class="row">
+					<div class="col-md-4">
+						<div class="form-group">
+							@Html.LabelFor(model => model.NumArticulo, htmlAttributes: new { @class = "col-sm-4 col-md-6" })
+							<div class="col-md-10">
+								@Html.EditorFor(model => model.NumArticulo, new { htmlAttributes = new { @class = "form-control" } })
+								@Html.ValidationMessageFor(model => model.NumArticulo, "", new { @class = "text-danger" })
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="form-group">
+							@Html.LabelFor(model => model.NomArticulo, htmlAttributes: new { @class = "col-sm-4 col-md-6" })
+							<div class="col-md-10">
+								@Html.EditorFor(model => model.NomArticulo, new { htmlAttributes = new { @class = "form-control" } })
+								@Html.ValidationMessageFor(model => model.NomArticulo, "", new { @class = "text-danger" })
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="form-group">
+							@Html.LabelFor(model => model.Precio, htmlAttributes: new { @class = "col-sm-4 col-md-6" })
+							<div class="col-md-10">
+								@Html.EditorFor(model => model.Precio, new { htmlAttributes = new { @class = "form-control" } })
+								@Html.ValidationMessageFor(model => model.Precio, "", new { @class = "text-danger" })
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="form-group">
+					@Html.LabelFor(model => model.Cantidad, htmlAttributes: new { @class = "col-md-2" })
+					<div class="col-md-10">
+						@Html.EditorFor(model => model.Cantidad, new { htmlAttributes = new { @class = "form-control" } })
+						@Html.ValidationMessageFor(model => model.Cantidad, "", new { @class = "text-danger" })
+					</div>
+				</div>
+
+				<div class="form-group">
+					@Html.LabelFor(model => model.Prioridad, htmlAttributes: new { @class = "control-label col-md-2" })
+					<div class="col-md-10">
+						@Html.EditorFor(model => model.Prioridad, new { htmlAttributes = new { @class = "form-control" } })
+						@Html.ValidationMessageFor(model => model.Prioridad, "", new { @class = "text-danger" })
+					</div>
+				</div>
+
+				<div class="form-group">
+					@Html.LabelFor(model => model.Comentario, htmlAttributes: new { @class = "control-label col-md-2" })
+					<div class="col-md-10">
+						@Html.EditorFor(model => model.Comentario, new { htmlAttributes = new { @class = "form-control" } })
+						@Html.ValidationMessageFor(model => model.Comentario, "", new { @class = "text-danger" })
+					</div>
+				</div>
+
+				@*<div class="form-group">
+					@Html.LabelFor(model => model.Estado, htmlAttributes: new { @class = "control-label col-md-2" })
+					<div class="col-md-10">
+						@Html.EditorFor(model => model.Estado, new { htmlAttributes = new { @class = "form-control" } })
+						@Html.ValidationMessageFor(model => model.Estado, "", new { @class = "text-danger" })
+					</div>
+				</div>*@
+
+				<div class="form-group">
+					<div class="col-md-offset-2 col-md-10">
+						<input type="submit" value="Create" class="btn btn-default" />
+					</div>
+				</div>
+				@ViewBag.MessageReponse
+			</div>
+		</div>
+
+
+
+
+
+
+</div>
+}
+
+<div style="margin-top:1rem;">
+	@Html.ActionLink("Regresar", "GetPurchaseById", null, new { @class = "btn btn-primary" })
+</div>
+
+@section Scripts {
+	@Scripts.Render("~/bundles/jqueryval")
+}
